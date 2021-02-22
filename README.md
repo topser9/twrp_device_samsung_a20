@@ -5,12 +5,12 @@
 # How-to clone source and device tree:
 
 mkdir -p ~/twrp && cd ~/twrp
-```
+
 $ repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
 ```
 # Clone a20 repo
-```
-$ git clone https://github.com/topser9/android_device_samsung_a20 -b twrp-9.0-new device/samsung/a20
+
+$ git clone https://github.com/topser9/twrp_device_samsung_a20 -b twrp-9.0-new device/samsung/a20
 ```
 # Sync
 
@@ -21,13 +21,13 @@ $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optim
 cd twrp; export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch omni_a20dd-eng; mka recoveryimage
 ```
 ## How to find the image built
-```
+
 `cd /out/target/product/a20`
 ```
 see recovery.img
 ```
 # Device Tree for Samsung Galaxy A20 (SM-A205F)
-```
+
 Device Tree Made by topser99
 ```
 # Specs
