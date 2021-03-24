@@ -10,15 +10,18 @@ $ repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifes
 ```
 # Clone a20 repo
 ```
-$ git clone https://github.com/topser9/twrp_device_samsung_a20 -b twrp-9.0-new device/samsung/a20
+$ git clone https://github.com/topser9/twrp_device_samsung_a20 device/samsung/a20
 ```
 Sync
 ```
-$ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
+$ repo sync
 ```
 # How-to build:
 ```
-$ cd twrp; export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch omni_a20dd-eng; mka recoveryimage
+$ export ALLOW_MISSING_DEPENDENCIES=true
+ . build/envsetup.sh
+ lunch omni_a20dd-eng
+ mka recoveryimage
 ```
 ## How to find the image built
 ```
