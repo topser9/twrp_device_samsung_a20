@@ -14,7 +14,10 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/a20
+DEVICE_PATH := device/samsung/a20dd
+
+# OTA Assert
+TARGET_OTA_ASSERT_DEVICE := a20,a20dd
 
 # Architecture
 TARGET_ARCH := arm64
@@ -64,7 +67,6 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
-
 # System as root
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_SUPPRESS_SECURE_ERASE := true
@@ -91,7 +93,7 @@ RECOVERY_SDCARD_ON_DATA := true
 # Do not set up legacy properties
 TW_NO_LEGACY_PROPS := true
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
-TW_MAX_BRIGHTNESS := 355
+TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 96
 TW_USE_TOOLBOX := true
 TW_Y_OFFSET := 80
@@ -104,5 +106,5 @@ TW_EXTRA_LANGUAGES := true
 TW_USE_NEW_MINADBD := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_INCLUDE_REPACKTOOLS := true
-TW_INCLUDE_LIBRESETPROP_SOURCE := true
+TW_INCLUDE_LIBRESETPROP := true
 PLATFORM_SECURITY_PATCH := 2099-12-31

@@ -10,7 +10,7 @@ $ repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifes
 ```
 # Clone a20 repo
 ```
-$ git clone https://github.com/topser9/twrp_device_samsung_a20 device/samsung/a20
+$ git clone https://github.com/topser9/twrp_device_samsung_a20dd device/samsung/a20dd
 ```
 Sync
 ```
@@ -18,10 +18,10 @@ $ repo sync
 ```
 # How-to build:
 ```
-export ALLOW_MISSING_DEPENDENCIES=true
-. build/envsetup.sh
-lunch omni_a20-eng
-mka recoveryimage
+$ export ALLOW_MISSING_DEPENDENCIES=true
+ . build/envsetup.sh
+ lunch omni_a20dd-eng
+ mka recoveryimage
 ```
 ## How to find the image built
 ```
@@ -29,7 +29,7 @@ mka recoveryimage
 ```
 see recovery.img
 ```
-# Device Tree for Samsung Galaxy A20 (SM-A205F)
+# Device Tree for Samsung Galaxy A20 (SM-A205F/DS)
 
 Device Tree Made by topser99
 ```

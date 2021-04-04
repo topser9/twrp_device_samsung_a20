@@ -14,5 +14,9 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_a20.mk
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/omni_a20dd.mk
+
+COMMON_LUNCH_CHOICES := \
+    omni_a20dd-eng
 
