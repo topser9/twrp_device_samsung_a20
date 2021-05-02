@@ -10,12 +10,12 @@
 
 /boot            emmc  /dev/block/platform/13500000.dwmmc0/by-name/boot     flags=backup=1;flashimg;display="Boot"
 /recovery        emmc  /dev/block/platform/13500000.dwmmc0/by-name/recovery flags=backup=1;flashimg;display="Recovery"
-/dtb_image       emmc  /dev/block/platform/13500000.dwmmc0/by-name/dtb      flags=backup=0;flashimg;display="DT Image"
-/dtbo_image      emmc  /dev/block/platform/13500000.dwmmc0/by-name/dtbo     flags=backup=0;flashimg;display="DTBO Image"
-/omr_image       emmc  /dev/block/platform/13500000.dwmmc0/by-name/omr      flags=backup=0;flashimg;display="OMR Image"
-/product_image   emmc  /dev/block/platform/13500000.dwmmc0/by-name/product  flags=backup=0;flashimg;display="Product Image"
-/system_image    emmc  /dev/block/platform/13500000.dwmmc0/by-name/system   flags=backup=0;flashimg;display="System Image"
-/vendor_image    emmc  /dev/block/platform/13500000.dwmmc0/by-name/vendor   flags=backup=0;flashimg;display="Vendor Image"
+/dtb_image       emmc  /dev/block/platform/13500000.dwmmc0/by-name/dtb      flags=backup=1;flashimg;display="DT Image"
+/dtbo_image      emmc  /dev/block/platform/13500000.dwmmc0/by-name/dtbo     flags=backup=1;flashimg;display="DTBO Image"
+/omr_image       emmc  /dev/block/platform/13500000.dwmmc0/by-name/omr      flags=backup=1;flashimg;display="OMR Image"
+/product_image   emmc  /dev/block/platform/13500000.dwmmc0/by-name/product  flags=backup=1;flashimg;display="Product Image"
+/system_image    emmc  /dev/block/platform/13500000.dwmmc0/by-name/system   flags=backup=1;flashimg;display="System Image"
+/vendor_image    emmc  /dev/block/platform/13500000.dwmmc0/by-name/vendor   flags=backup=1;flashimg;display="Vendor Image"
 
 #external SDcard
 #

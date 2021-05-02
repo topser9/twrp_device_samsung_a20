@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/a20dd
+DEVICE_PATH := device/samsung/a20
 
 # OTA Assert
 TARGET_OTA_ASSERT_DEVICE := a20,a20dd
