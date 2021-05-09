@@ -20,7 +20,7 @@ $ repo sync
 ```
 $ export ALLOW_MISSING_DEPENDENCIES=true
  . build/envsetup.sh
- lunch omni_a20dd-eng
+ lunch omni_a20-eng
  mka recoveryimage
 ```
 ## How to find the image built
