@@ -10,7 +10,7 @@ $ repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifes
 ```
 # Clone a20 repo
 ```
-$ git clone https://github.com/topser9/twrp_device_samsung_a20 device/samsung/a20
+$ git clone https://github.com/topser9/twrp_device_samsung_a20.git device/samsung/a20
 ```
 Sync
 ```
