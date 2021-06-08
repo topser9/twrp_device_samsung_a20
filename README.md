@@ -4,7 +4,7 @@
 ```
 # How-to clone source and device tree:
 
-mkdir -p ~/twrp && cd ~/twrp
+$ mkdir -p ~/twrp && cd ~/twrp
 
 $ repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
 ```
@@ -19,13 +19,13 @@ $ repo sync
 # How-to build:
 ```
 $ export ALLOW_MISSING_DEPENDENCIES=true
- . build/envsetup.sh
- lunch omni_a20-eng
- mka recoveryimage
+$ . build/envsetup.sh
+$ lunch omni_a20-eng
+$ mka recoveryimage
 ```
 ## How to find the image built
 ```
-`cd /out/target/product/a20`
+`$ cd /out/target/product/a20`
 ```
 see recovery.img
 ```
