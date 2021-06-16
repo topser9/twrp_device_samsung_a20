@@ -1,6 +1,6 @@
 # TWRP Samsung Galaxy A20
-![Galaxy A20](https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a20.jpg "Galaxy A20")
-# How-to install dependencies
+
+# How to compile it:
 ```
 # How-to clone source and device tree:
 
@@ -33,6 +33,8 @@ see recovery.img
 
 Device Tree Made by topser99
 ```
+![Galaxy A20](https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a20.jpg "Galaxy A20")
+
 # Specs
 |---------------------------------------------------------------------------------|
 |      Component        |          Specification                                  |
