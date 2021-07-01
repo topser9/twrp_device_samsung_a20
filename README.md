@@ -1,9 +1,9 @@
 # TWRP Samsung Galaxy A20
 
 # How to compile it:
-```
-# How-to clone source and device tree:
 
+# How-to clone source and device tree:
+```
 $ mkdir -p ~/twrp && cd ~/twrp
 
 $ repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
